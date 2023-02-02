@@ -215,7 +215,7 @@ void LoadObjects()
 		{
 			color = glm::vec3(0, 0, 1);
 		}
-		Model* m = new Model("./teapot.obj", position, activeShader, color);
+		Model* m = new Model("./piper_pa18.obj", position, activeShader, color);
 
 		//teapots.push_back(m);
 		models.push_back(m);

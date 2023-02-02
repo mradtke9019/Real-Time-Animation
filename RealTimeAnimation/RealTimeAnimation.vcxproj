@@ -204,6 +204,21 @@
       <FileType>Document</FileType>
     </CopyFileToFolders>
   </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="piper_bump.jpg" />
+    <CopyFileToFolders Include="piper_diffuse.jpg" />
+    <CopyFileToFolders Include="piper_refl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="piper_pa18.mtl">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="piper_pa18.obj">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
