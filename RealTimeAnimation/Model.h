@@ -42,7 +42,13 @@ private:
         for (int i = 0; i < node->mNumMeshes; i++)
         {
             aiMesh* mesh = scene->mMeshes[node->mMeshes[i]];
-            meshes.push_back(ProcessMesh(mesh, scene));
+            Mesh m = ProcessMesh(mesh, scene);
+            if (m.indices.size() <= 0 || m.vertices.size() <= 0) {
+
+            }
+            else {
+                meshes.push_back(m);
+            }
         }
         // then do the same for each of its children
         for (int i = 0; i < node->mNumChildren; i++)

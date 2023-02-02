@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Binaries">
+      <UniqueIdentifier>{122bccae-6e55-41f5-b545-8e94a897ee60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -94,9 +97,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="teapot.obj">
-      <Filter>Resource Files</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="realisticFragment.glsl">
       <Filter>Resource Files</Filter>
     </CopyFileToFolders>
@@ -115,9 +115,6 @@
     <CopyFileToFolders Include="blinnPhongFragment.glsl">
       <Filter>Resource Files</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="LightBulb.obj">
-      <Filter>Resource Files</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="piper_pa18.obj">
       <Filter>Resource Files</Filter>
     </CopyFileToFolders>
@@ -132,6 +129,27 @@
     </CopyFileToFolders>
     <CopyFileToFolders Include="piper_refl.jpg">
       <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assimp\bin\Assimp32.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="assimp\bin\Assimp32d.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="irrKlang-1.6.0\bin\win32-visualStudio\irrKlang.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="freeglut\bin\freeglut.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="glew-1.10.0\bin\Release\Win32\glew32.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="irrKlang-1.6.0\bin\win32-visualStudio\ikpFlac.dll">
+      <Filter>Binaries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="irrKlang-1.6.0\bin\win32-visualStudio\ikpMP3.dll">
+      <Filter>Binaries</Filter>
     </CopyFileToFolders>
   </ItemGroup>
 </Project>
